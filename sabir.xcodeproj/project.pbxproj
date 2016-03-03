@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC26E8C1C8578F00018FE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC26E8B1C8578F00018FE45 /* AppDelegate.swift */; };
+		8BC26E8E1C8578F00018FE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC26E8D1C8578F00018FE45 /* ViewController.swift */; };
+		8BC26E911C8578F00018FE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC26E8F1C8578F00018FE45 /* Main.storyboard */; };
+		8BC26E931C8578F00018FE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC26E921C8578F00018FE45 /* Assets.xcassets */; };
+		8BC26E961C8578F00018FE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC26E941C8578F00018FE45 /* LaunchScreen.storyboard */; };
+		8BC26EA11C8578F00018FE45 /* sabirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC26EA01C8578F00018FE45 /* sabirTests.swift */; };
+		8BC26EAC1C8578F00018FE45 /* sabirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC26EAB1C8578F00018FE45 /* sabirUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC26E9D1C8578F00018FE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC26E801C8578F00018FE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC26E871C8578F00018FE45;
+			remoteInfo = sabir;
+		};
+		8BC26EA81C8578F00018FE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC26E801C8578F00018FE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC26E871C8578F00018FE45;
+			remoteInfo = sabir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC26E881C8578F00018FE45 /* sabir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sabir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC26E8B1C8578F00018FE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BC26E8D1C8578F00018FE45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC26E901C8578F00018FE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC26E921C8578F00018FE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC26E951C8578F00018FE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC26E971C8578F00018FE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC26E9C1C8578F00018FE45 /* sabirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sabirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC26EA01C8578F00018FE45 /* sabirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sabirTests.swift; sourceTree = "<group>"; };
+		8BC26EA21C8578F00018FE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC26EA71C8578F00018FE45 /* sabirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sabirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC26EAB1C8578F00018FE45 /* sabirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sabirUITests.swift; sourceTree = "<group>"; };
+		8BC26EAD1C8578F00018FE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC26E851C8578F00018FE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26E991C8578F00018FE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26EA41C8578F00018FE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC26E7F1C8578F00018FE45 = {
+			isa = PBXGroup;
+			children = (
+				8BC26E8A1C8578F00018FE45 /* sabir */,
+				8BC26E9F1C8578F00018FE45 /* sabirTests */,
+				8BC26EAA1C8578F00018FE45 /* sabirUITests */,
+				8BC26E891C8578F00018FE45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC26E891C8578F00018FE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC26E881C8578F00018FE45 /* sabir.app */,
+				8BC26E9C1C8578F00018FE45 /* sabirTests.xctest */,
+				8BC26EA71C8578F00018FE45 /* sabirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC26E8A1C8578F00018FE45 /* sabir */ = {
+			isa = PBXGroup;
+			children = (
+				8BC26E8B1C8578F00018FE45 /* AppDelegate.swift */,
+				8BC26E8D1C8578F00018FE45 /* ViewController.swift */,
+				8BC26E8F1C8578F00018FE45 /* Main.storyboard */,
+				8BC26E921C8578F00018FE45 /* Assets.xcassets */,
+				8BC26E941C8578F00018FE45 /* LaunchScreen.storyboard */,
+				8BC26E971C8578F00018FE45 /* Info.plist */,
+			);
+			path = sabir;
+			sourceTree = "<group>";
+		};
+		8BC26E9F1C8578F00018FE45 /* sabirTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC26EA01C8578F00018FE45 /* sabirTests.swift */,
+				8BC26EA21C8578F00018FE45 /* Info.plist */,
+			);
+			path = sabirTests;
+			sourceTree = "<group>";
+		};
+		8BC26EAA1C8578F00018FE45 /* sabirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC26EAB1C8578F00018FE45 /* sabirUITests.swift */,
+				8BC26EAD1C8578F00018FE45 /* Info.plist */,
+			);
+			path = sabirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC26E871C8578F00018FE45 /* sabir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC26EB01C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabir" */;
+			buildPhases = (
+				8BC26E841C8578F00018FE45 /* Sources */,
+				8BC26E851C8578F00018FE45 /* Frameworks */,
+				8BC26E861C8578F00018FE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sabir;
+			productName = sabir;
+			productReference = 8BC26E881C8578F00018FE45 /* sabir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC26E9B1C8578F00018FE45 /* sabirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC26EB31C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabirTests" */;
+			buildPhases = (
+				8BC26E981C8578F00018FE45 /* Sources */,
+				8BC26E991C8578F00018FE45 /* Frameworks */,
+				8BC26E9A1C8578F00018FE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC26E9E1C8578F00018FE45 /* PBXTargetDependency */,
+			);
+			name = sabirTests;
+			productName = sabirTests;
+			productReference = 8BC26E9C1C8578F00018FE45 /* sabirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BC26EA61C8578F00018FE45 /* sabirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC26EB61C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabirUITests" */;
+			buildPhases = (
+				8BC26EA31C8578F00018FE45 /* Sources */,
+				8BC26EA41C8578F00018FE45 /* Frameworks */,
+				8BC26EA51C8578F00018FE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC26EA91C8578F00018FE45 /* PBXTargetDependency */,
+			);
+			name = sabirUITests;
+			productName = sabirUITests;
+			productReference = 8BC26EA71C8578F00018FE45 /* sabirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC26E801C8578F00018FE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hcl;
+				TargetAttributes = {
+					8BC26E871C8578F00018FE45 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8BC26E9B1C8578F00018FE45 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8BC26E871C8578F00018FE45;
+					};
+					8BC26EA61C8578F00018FE45 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8BC26E871C8578F00018FE45;
+					};
+				};
+			};
+			buildConfigurationList = 8BC26E831C8578F00018FE45 /* Build configuration list for PBXProject "sabir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC26E7F1C8578F00018FE45;
+			productRefGroup = 8BC26E891C8578F00018FE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC26E871C8578F00018FE45 /* sabir */,
+				8BC26E9B1C8578F00018FE45 /* sabirTests */,
+				8BC26EA61C8578F00018FE45 /* sabirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC26E861C8578F00018FE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC26E961C8578F00018FE45 /* LaunchScreen.storyboard in Resources */,
+				8BC26E931C8578F00018FE45 /* Assets.xcassets in Resources */,
+				8BC26E911C8578F00018FE45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26E9A1C8578F00018FE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26EA51C8578F00018FE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC26E841C8578F00018FE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC26E8E1C8578F00018FE45 /* ViewController.swift in Sources */,
+				8BC26E8C1C8578F00018FE45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26E981C8578F00018FE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC26EA11C8578F00018FE45 /* sabirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC26EA31C8578F00018FE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC26EAC1C8578F00018FE45 /* sabirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC26E9E1C8578F00018FE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC26E871C8578F00018FE45 /* sabir */;
+			targetProxy = 8BC26E9D1C8578F00018FE45 /* PBXContainerItemProxy */;
+		};
+		8BC26EA91C8578F00018FE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC26E871C8578F00018FE45 /* sabir */;
+			targetProxy = 8BC26EA81C8578F00018FE45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC26E8F1C8578F00018FE45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC26E901C8578F00018FE45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC26E941C8578F00018FE45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC26E951C8578F00018FE45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC26EAE1C8578F00018FE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BC26EAF1C8578F00018FE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC26EB11C8578F00018FE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sabir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BC26EB21C8578F00018FE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sabir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BC26EB41C8578F00018FE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sabirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sabir.app/sabir";
+			};
+			name = Debug;
+		};
+		8BC26EB51C8578F00018FE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sabirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sabir.app/sabir";
+			};
+			name = Release;
+		};
+		8BC26EB71C8578F00018FE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sabirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sabir;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8BC26EB81C8578F00018FE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sabirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.sabirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sabir;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC26E831C8578F00018FE45 /* Build configuration list for PBXProject "sabir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC26EAE1C8578F00018FE45 /* Debug */,
+				8BC26EAF1C8578F00018FE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC26EB01C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC26EB11C8578F00018FE45 /* Debug */,
+				8BC26EB21C8578F00018FE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BC26EB31C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC26EB41C8578F00018FE45 /* Debug */,
+				8BC26EB51C8578F00018FE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BC26EB61C8578F00018FE45 /* Build configuration list for PBXNativeTarget "sabirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC26EB71C8578F00018FE45 /* Debug */,
+				8BC26EB81C8578F00018FE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC26E801C8578F00018FE45 /* Project object */;
+}
